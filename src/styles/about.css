@@ -1,0 +1,37 @@
+.about-container {
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about-container p {
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #444;
+}
+
+.about-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 25px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-top: 4px solid #A18D6D;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #703B3B;
+}

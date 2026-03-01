@@ -1,0 +1,87 @@
+/* WRAPPER BACKGROUND */
+.booking-wrapper {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f3efe8, #e8e2d6);
+  padding: 40px 20px;
+}
+
+/* FORM CARD */
+.booking-card {
+border-top: 1px solid #eee;
+  width: 100%;
+  max-width: 480px;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border-left: 6px solid #703B3B;
+}
+
+/* HEADING */
+.booking-card h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #703B3B;
+  letter-spacing: 1px;
+}
+
+/* INPUT GROUP */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+/* LABEL */
+.input-group label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #703B3B;
+}
+
+/* INPUT + SELECT */
+.input-group input,
+.input-group select {
+  height: 48px;
+  padding: 0 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  background-color: #fafafa;
+  transition: all 0.3s ease;
+}
+
+/* FOCUS EFFECT */
+.input-group input:focus,
+.input-group select:focus {
+  outline: none;
+  border-color: #A18D6D;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(161, 141, 109, 0.2);
+}
+
+/* BUTTON */
+.booking-btn {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: #703B3B;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* BUTTON HOVER */
+.booking-btn:hover {
+  background-color: #A18D6D;
+  transform: translateY(-2px);
+}
